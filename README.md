@@ -63,5 +63,5 @@ Enter password: ******
 # Dockerの実行
 下記コマンドでコンテナを立ち上げる
 ```
-docker run -d --name mysql --network bridge --restart=always -e MYSQL_DATABASE=redmine -e MYSQL_PASSWORD=mysql -e MYSQL_ROOT_PASSWORD=mysql -e MYSQL_USER=mysql llasuka/mysql
+docker run -d --name mysql --network bridge --restart=always -e MYSQL_DATABASE=redmine -e MYSQL_PASSWORD=mysql -e MYSQL_ROOT_PASSWORD=mysql -e MYSQL_USER=mysql asubee/mysql
 ```
